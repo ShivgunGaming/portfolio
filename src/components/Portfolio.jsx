@@ -12,6 +12,8 @@ const ProjectCard = ({
   name,
   description,
   image,
+  githubLink,
+  liveDemoLink
 }) => {
   const controls = useAnimation();
   const { ref, inView } = useInView({
@@ -45,6 +47,26 @@ const ProjectCard = ({
       <div className={`w-full md:w-2/5 px-6 md:p-16 flex flex-col justify-center ${isEven ? "text-left md:text-left" : "text-left md:text-right"}`}>
         <h3 className='text-white font-medium text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl lg:text-5xl leading-tight'>{name}</h3>
         <p className='mt-4 text-secondary text-sm sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl'>{description}</p>
+        <div className='mt-6 flex flex-row justify-start md:justify-center gap-4'>
+          <a
+            href={githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className='border border-white text-white px-4 py-2 rounded-md hover:bg-white hover:text-white transition duration-300'
+            style={{ backgroundColor: 'transparent' }}
+          >
+            GitHub
+          </a>
+          <a
+            href={liveDemoLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className='border border-white text-white px-4 py-2 rounded-md hover:bg-white hover:text-white transition duration-300'
+            style={{ backgroundColor: 'transparent' }}
+          >
+            Live Demo
+          </a>
+        </div>
       </div>
     </motion.div>
   );
