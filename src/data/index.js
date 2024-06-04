@@ -62,20 +62,25 @@ const portfolio = [
     description:
       "A Bitcoin ordinals bot that allows users to verify Bitcoin inscriptions, and assign roles based on their inscription holdings and manage collections.",
     image: ord,
+    githubLink: "https://github.com/ShivgunGaming/ordbot",
+    liveDemoLink: "https://discord.com/oauth2/authorize?client_id=1241662241418248212&permissions=633318697598967&scope=bot"
   },
   {
     name: "Biometra",
     description:
       "A crypto wallet that allows for creation of a wallet, logging into existing wallets, and sending of different cryptocurries from different EVM chains.",
     image: bio,
+    githubLink: "https://github.com/ShivgunGaming/biometra-main",
+    liveDemoLink: "https://chromewebstore.google.com/detail/biometra/gknnoaamopfhmbidclipchiccnladiol"
   },
   {
     name: "Crypto Tracker",
     description:
       "A decentralized application for tracking of all crypto assets across all EVM chains, such as Ethereum, Avalanche and Binance just to name a few.",
     image: tracker,
+    githubLink: "https://github.com/ShivgunGaming/crypto-portfolio-tracker",
+    liveDemoLink: "https://crypto-portfolio-tracker-indol.vercel.app/"
   },
 ];
 
 export { experiences, portfolio };
-
