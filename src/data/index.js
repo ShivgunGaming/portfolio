@@ -29,29 +29,10 @@ const experiences = [
     company_name: "Professional",
     date: "2022 - Present",
     details: [
-      "Developed various websites and bots for <span style='color: white;'>Hells Bells and Lambswap</span> and worked with various blockchains such as <span style='color: white;'>EVM, Ordinals and Bellschain.</span>",
-      "<span style='color: white;'>Developed </span> many websites, apps, dApps and bots from scratch to completion.",
-      "<span style='color: white;'>Worked with SDLC and tools like Linear and Trello </span> for all of my development work, and great at <span style='color: white;'>communication.</span>",
-    ],
-  },
-  {
-    title: "Developer / Dev",
-    company_name: "Hobby",
-    date: "2022 - Present",
-    details: [
-      "Developed various websites, apps and dApps using <span style='color: white;'>HTML, CSS and Javascript</span> and hosted my projects on <span style='color: white;'>Github, Vercel and Google Chrome Store.</span>",
-      "<span style='color: white;'>Learned </span> many technologies, such as Bootstrap, Tailwind and React.",
-      "Worked with tools such as <span style='color: white;'> Visual Studio Code and Git </span> for most of my projects.",
-    ],
-  },
-  {
-    title: "Content Creator",
-    company_name: "Hobby",
-    date: "2023 - Present",
-    details: [
-      "Amassed over  <span style='color: white;'>750,000+ impressions, 50,000+ likes, and 1,600+ followers</span> all in under <span style='color: white;'>1 year.</span>",
-      "<span style='color: white;'>Created </span> many art pieces for the world to savor.",
-      "Been on stage on many <span style='color: white;'> Twitter spaces </span> to express my ideas and thoughts.",
+      "<span style='color: white;'>Core developer</span> for various blockchain projects; including <span style='color: white;'>Lambswap,</span> a decentralized exchange operating on <span style='color: white;'>Bitcoin's Lambda protocol,</span> and <span style='color: white;'>Sherpa,</span> an <span style='color: white;'> education focused Web3 project.</span>",
+      "Utilizing technologies such as <span style='color: white;'> Javascript, Python, React and more. </span>",
+      " I helped create various<span style='color: white;'> decentralized applications </span> on a nascent bitcoin protocol, and was a early developer in the <span style='color: white;'> Trac and Tap ecosystem.",
+      "Worked in an agile environment where we utilized <span style='color: white;'> Kanban.</span> Familiar with all aspects of the <span style='color: white;'> Software Development Lifecycle. </span>"
     ],
   },
 ];
