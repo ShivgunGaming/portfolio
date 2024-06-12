@@ -49,7 +49,7 @@ const portfolio = [
   {
     name: "Biometra",
     description:
-      "A crypto wallet that allows for creation of a wallet, logging into existing wallets, and sending of different cryptocurries from different EVM chains.",
+      "Crypto wallet where you can create new wallets, log into existing ones, and send various cryptocurrencies across different EVM chains.",
     image: bio,
     githubLink: "https://github.com/ShivgunGaming/biometra-main",
     liveDemoLink: "https://chromewebstore.google.com/detail/biometra/gknnoaamopfhmbidclipchiccnladiol"
@@ -57,7 +57,7 @@ const portfolio = [
   {
     name: "Crypto Tracker",
     description:
-      "A decentralized application for tracking of all crypto assets across all EVM chains, such as Ethereum, Avalanche and Binance just to name a few.",
+      "Web based dApp that tracks all types of cryptocurrencies on different platforms like Ethereum, Avalanche, and Binance, without being controlled by any single authority.",
     image: tracker,
     githubLink: "https://github.com/ShivgunGaming/crypto-portfolio-tracker",
     liveDemoLink: "https://crypto-portfolio-tracker-indol.vercel.app/"
